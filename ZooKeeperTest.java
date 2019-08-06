@@ -17,5 +17,4 @@ public class ZooKeeperTest {
 		jojo.eatBananas();
 		jojo.displayEnergy();
 	}
-
 }

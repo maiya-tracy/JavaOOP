@@ -13,5 +13,4 @@ public class Gorilla extends ZooKeeper {
 		System.out.println("Gorilla climbed a tree");
 		this.modifyEnergy(-10);
 	}
-
 }
