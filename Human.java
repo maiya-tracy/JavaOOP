@@ -41,6 +41,18 @@ public class Human {
 	public void setHealth(int health) {
 		this.health = health;
 	}
+	public void modifyStrength(int strength) {
+		this.strength += strength;
+	}
+	public void modifyIntelligence(int intelligence) {
+		this.intelligence += intelligence;
+	}
+	public void modifyStealth(int stealth) {
+		this.stealth += stealth;
+	}
+	public void modifyHealth(int health) {
+		this.health += health;
+	}
 	public void attack(Human attacked) {
 		attacked.health -= this.strength;
 	}
